@@ -18,7 +18,7 @@ public class MinishiftDemoApplication {
 	
 	@GetMapping("/{input}")
 	public String congrats(@PathVariable String input) {
-		return "Hi " + input + " your application deployed sucessfully!";
+		return "Hi " + input + " your application deployed sucessfully jajaja!";
 	}
 	
 	public static void main(String[] args) {
